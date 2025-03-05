@@ -41,9 +41,9 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #token varibles
 # my shortner https://dashboard.shareus.io/signup/lifetime/U9AZbV
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "adrinolinks.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "ebbc0543f2cbc6ec143e32ba2c51c9f149dd71e0")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "papajiurl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "ce051b87ee30f28cb4e20f0a7c8b47a6c1403e5f")
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 43200)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/howto_open_tatelikns")
 
