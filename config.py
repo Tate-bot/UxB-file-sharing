@@ -41,17 +41,17 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #token varibles
 # my shortner https://dashboard.shareus.io/signup/lifetime/U9AZbV
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "seturl.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "957408cc4a20afc3004f74f59e8d4647e23ad379")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 43200)) # Add time in seconds
-IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/howto_open_tatelikns")
+IS_VERIFY = os.environ.get("IS_VERIFY", "False")
+TUT_VID = os.environ.get("TUT_VID","")
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n ɪ ᴀᴍ ᴍᴜʟᴛɪ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ , ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ » @all_botx</b>")
 try:
     ADMINS=[5560200410]
-    for x in (os.environ.get("ADMINS", "5560200410 6754286457").split()):
+    for x in (os.environ.get("ADMINS", "5560200410 6754286457 5119055997 7767426734").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
